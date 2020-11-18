@@ -8,7 +8,7 @@ import ToggleButton from "./components/ToggleButton";
 
 function App() {
 	const [markdown, setMarkdown] = useState("");
-	const [selected, setSelected] = useState(false);
+	const [selected, setSelected] = useState(true);
 
 	const updateMarkdown = (e) => {
 		setMarkdown(e.target.value);

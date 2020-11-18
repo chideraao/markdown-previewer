@@ -15,6 +15,16 @@ function Inputdiv({ markdown, updateMarkdown }) {
 				rows="20"
 				value={markdown}
 				onChange={updateMarkdown}
+				placeholder="# heading
+				## This is a sub-heading...
+				` single-line code` 
+				```
+				multi-line code
+				``` 
+				**bold**
+				_italic_
+				~~crossing stuff out~~
+				> Block Quotes!"
 			/>
 		</div>
 	);
