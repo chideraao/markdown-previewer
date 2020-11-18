@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Inputdiv from "./components/Inputdiv";
 import MarkupDisplay from "./components/MarkupDisplay";
@@ -27,6 +28,7 @@ function App() {
 			) : (
 				<MarkupDisplay markdown={markdown} />
 			)}
+			<Footer />
 		</div>
 	);
 }
