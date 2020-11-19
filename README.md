@@ -1,5 +1,7 @@
 a markdown previewer project created by me, idea for project gotten from Freecodecamp's frontend certification project.
 
+Project available at https://angry-volhard-60f72f.netlify.app/ .
+
 ## Shalom
 
 # Getting Started with Create React App
